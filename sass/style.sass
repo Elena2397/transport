@@ -1,0 +1,1009 @@
+* 
+  margin: 0
+  padding: 0
+    
+html
+    font-size: 16px
+    font-family: "Montserrat"
+a
+    text-decoration: none
+li
+  list-style-type: none
+
+button:active, button:focus 
+  outline: none
+
+button::-moz-focus-inner 
+  border: 0
+.container
+  width: 68%
+  margin: 0 auto
+header 
+  background: #FED100
+  padding-top: 2.08vw
+.header
+  display: flex
+  align-items: baseline
+  justify-content: space-between
+  &__name
+    font-size: 1.56vw
+    font-weight: 600
+  &__nav
+    display: flex
+    &__a
+      margin-left: 2.5vw
+      font-style: normal
+      font-weight: 500
+      font-size: 0.84vw
+      color: #333333
+      &:hover
+        color: #ffffff
+  &__phone
+    border-bottom: 1px solid #333333
+    font-size: 1.25vw
+    font-weight: 600
+.humburger
+  display: none
+
+.discription
+  display: flex
+  justify-content: space-between
+  z-index: 2
+  &__name
+    z-index: 1
+    &__dscr
+      font-weight: bold
+      font-size: 3.65vw
+      margin-top: 3.28vw
+      line-height: 126.9%
+      color: #333333
+    &__city
+      margin-top: 1.2vw
+      font-weight: 600
+      font-size: 1.56vw
+      line-height: 1.93vw
+      color: #333333
+    &__button
+      margin-top: 2.6vw
+      padding: 0.83vw 4.95vw
+      font-weight: 600
+      font-size: 1.25vw
+      color: #F2F2F2
+      background: #FF352B
+      border: none
+      z-index: 300
+      &:hover
+        color: #000000
+    &__border
+      position: absolute
+      width: 15.84vw
+      height: 3.125vw
+      left: 16.5vw
+      top: 22.9vw
+      z-index: -1
+      border: 0.1vw solid #F2F2F2
+      box-sizing: border-box
+    &__li
+      display: flex
+      justify-content: space-between
+      margin-top: 3.39vw
+    &__items
+      display: flex
+      justify-content: space-between
+      margin-bottom: 4.3vw
+      &__dscr
+        font-style: normal
+        font-weight: normal
+        font-size: 0.8vw
+        color: #333333
+
+    &__img
+      width: 25%
+      margin-right: 0.52vw
+      margin-left: 1vw
+  &__people
+    z-index: 100
+    width: 25%
+  &__car
+    position: absolute
+    right: 11.3vw
+    top: 11.2vw
+    width: 25%
+  &__right-col
+    position: relative
+    display: flex
+    align-items: flex-end
+    &__phone
+      position: absolute
+      width: 3vw
+      bottom: 4vw
+      right: 2vw
+      z-index: 10
+      
+    &__range
+      position: absolute
+      background: rgba(61, 155, 233, 0.8)
+      width: 5.21vw
+      height: 5.21vw
+      border-radius: 50%
+      right: 0.8vw
+      bottom: 2.9vw
+      z-index: 5
+      &:hover
+        background: rgba(8, 33, 53, 0.1)
+        
+    &__translucent
+      position: absolute
+      background: rgba(61, 155, 233, 0.3)
+      width: 7.08vw
+      height: 7.08vw
+      border-radius: 50%
+      right: 0vw
+      bottom: 2.1vw
+      z-index: 5
+      &:hover
+        background: rgba(8, 33, 53, 0.1)
+.block-name
+  display: flex
+  justify-content: center
+  margin: 4.95vw auto 3.44vw auto
+  font-weight: 600
+  font-size: 1.56vw
+  color: #333333
+  &__descr
+    display: flex
+    justify-content: space-around
+  &__items
+    display: flex
+    &__number
+      margin-right: 2.08vw
+      margin-bottom: 5.08vw
+      font-weight: 300
+      font-size: 2.6vw
+      color: #333333
+      text-shadow: 1px 1px 1px #FED100
+    &__name
+      margin-bottom: 0.78vw
+      font-weight: 500
+      font-size: 1vw
+      color: #333333
+    &__descr
+      width: 19.79vw
+      font-weight: normal
+      font-size: 0.84vw
+      color: #333333
+
+.price
+  display: flex
+  justify-content: center
+  font-weight: 600
+  font-size: 1.56vw
+  color: #333333
+  &__descr
+    display: flex
+    justify-content: center
+    margin: 0.78vw 0 3.125vw 0
+    font-weight: 600
+    font-size: 1.25vw
+    color: #333333
+  &__block
+    display: flex
+    justify-content: space-between
+    &__items
+      display: flex
+      align-items: center
+      flex-direction: column
+      padding: 4.33vw
+      background: #FFFFFF
+      border: 1px solid #EBEBEB
+      margin-bottom: 3.5vw
+    &__items:hover
+      border: 1px solid #FED100
+    &__name
+      margin-bottom: 1.83vw
+      font-weight: 600
+      font-size: 1.25vw
+      color: #333333
+    &__descr
+      margin-top: 1.3vw
+      font-weight: normal
+      font-size: 0.83vw
+      color: #333333
+    &__price
+      margin: 3.125vw auto 2.7vw auto
+      font-weight: 600
+      font-size: 1.56vw
+      color: #333333
+    &__button
+      width: 13vw
+      background: #FED100
+      font-weight: 500
+      font-size: 1vw
+      color: #333333
+      padding: 0.78vw 0
+      border: none
+      &:hover
+        color: #ffffff
+
+
+.button
+  display: flex
+  justify-content: center
+  &__items
+    width: 10.5vw
+    padding: 0.68vw 0
+    margin: 0 0.52vw
+    background: #FFFFFF
+    border: 1px solid #EBEBEB
+    font-weight: 500
+    font-size: 1vw
+    color: #333333
+  &__items:hover
+    border: 1px solid #FED100
+.car
+  display: flex
+  justify-content: center
+  align-items: center
+  &__name
+    font-weight: 600
+    font-size: 1.25vw
+    line-height: 1.5vw
+    color: #333333
+    margin-bottom: 0.46vw
+  &__descr
+    font-weight: normal
+    font-size: 0.84vw
+    line-height: 1.1vw
+    color: #333333
+    margin-top: 1.45vw
+  &__button
+    margin-top: 1.8vw
+    margin-right: 5.8vw
+  &__check
+    margin-right: 0.78vw
+  &__img
+    margin: 2.5vw 0
+    width: 50%
+
+
+.reviews
+  background: #FED100
+  &__name
+    display: flex
+    justify-content: center
+    padding-top: 5.2vw
+    margin-bottom: 3.125vw
+    font-style: normal
+    font-weight: 600
+    font-size: 1.56vw
+    color: #333333
+
+.feedback
+  display: flex
+  justify-content: space-between
+  &__name
+    margin-bottom: 0.5vw
+    font-style: normal
+    font-weight: 600
+    font-size: 1.25vw
+    color: #333333
+  &__date
+    display: inline
+    margin-right: 0.5vw
+  &__dscr
+    font-style: normal
+    font-weight: normal
+    font-size: 0.8vw
+    color: #333333
+    margin-top: 1vw
+    margin-bottom: 1vw
+    margin-right: 1vw
+  &__img
+    width: 4%
+  &__link
+    text-decoration: underline
+    font-style: normal
+    font-weight: normal
+    font-size: 0.8vw
+    color: #333333
+    &:hover
+      color: #ffffff
+      
+  &__btn
+    position: relative
+    left: 50%
+    transform: translate(-50%, 0)
+    width: 13vw
+    background: #FED100
+    font-weight: 500
+    font-size: 1vw
+    color: #333333
+    padding: 0.78vw 0
+    border: 1px solid #333333
+    margin-top: 3.2vw
+    margin-bottom: 4.9vw
+    &:hover
+      color: #ffffff
+      
+.order
+  padding-left: 7.55vw
+.order-a-transfer
+  margin-top: 6.46vw
+  font-style: normal
+  font-weight: 600
+  font-size: 1.56vw
+  color: #333333
+  &__items
+    display: flex
+    align-items: flex-start
+  &__call-back
+    margin-top: 0.5vw
+    margin-bottom: 2.45vw
+    font-style: normal
+    font-weight: normal
+    font-size: 0.8vw
+    color: #333333
+  &__input
+    border: none
+    outline: none
+    font-style: normal
+    font-weight: 500
+    font-size: 1vw
+    color: rgba(51, 51, 51, 0.7)
+    padding-bottom: 0.52vw
+    border-bottom: 1px solid #333333
+    margin-right: 3.65vw
+    padding-top: 1vw
+  &__booking
+    display: flex
+    flex-direction: column
+    &__button
+      margin-bottom: 1.15vw
+      padding: 0.83vw 4.95vw
+      font-weight: 600
+      font-size: 1.25vw
+      color: #F2F2F2
+      background: #FF352B
+      border: none
+      z-index: 300
+      &:hover
+        color: #333333
+    &__label
+      font-style: normal
+      font-weight: normal
+      font-size: 0.625vw
+      color: #333333
+      margin-bottom: 6.4vw
+
+.contact
+  background: url("../img/map.png") no-repeat
+  background-size: 100% 100%
+  height: 34vw
+  position: relative
+.map
+  position: absolute
+  background: #FFFFFFFF
+  padding: 2vw
+  width: 17%
+  left: 19vw
+  top: 8.44vw
+  &__name
+    font-style: normal
+    font-weight: 600
+    font-size: 1.56vw
+    color: #333333
+    margin-bottom: 2vw
+  &__items
+    display: flex
+    margin-bottom: 0.99vw
+    &__img
+      width: 5%
+      margin-right: 0.8vw
+    &__link
+      font-style: normal
+      font-weight: normal
+      font-size: 0.8vw
+      color: #333333
+  &__social-network
+    display: flex
+    justify-content: flex-end
+    align-items: flex-start
+    margin-top: 2.97vw
+    &__img
+      margin-right: 1.3vw
+    
+.mail
+  border-bottom: 1px solid #333333
+
+footer
+  background: #FED100
+
+.footer
+  display: flex
+  justify-content: space-between
+  &__col
+    display: flex
+    flex-direction: column
+    margin-top: 5.21vw
+    margin-bottom: 5.21vw
+    &__name
+      font-style: normal
+      font-weight: 600
+      font-size: 1.56vw
+      color: #333333
+      margin-bottom: 2.3vw
+        
+    &__dscr
+      font-style: normal
+      font-weight: normal
+      font-size: 0.8vw
+      color: #0E0F12
+      margin-bottom: 1.7vw
+      &:hover
+        color: #ffffff
+    &__link
+      font-style: normal
+      font-weight: 500
+      font-size: 1vw
+      color: #333333
+      margin-bottom: 0.8vw
+      &:hover
+        color: #ffffff
+    &__social-network
+      margin-bottom: 1vw
+      &__img
+        margin-right: 1.6vw
+    &__mail
+      width: 80%
+      font-style: normal
+      font-weight: 500
+      font-size: 1vw
+      color: #333333
+      border-bottom: 1px solid #333333
+      &:hover
+        color: #ffffff
+    &__button
+      background: #FED100
+      padding: 0.5vw 1.56vw
+      font-style: normal
+      font-weight: 500
+      font-size: 1vw
+      color: #333333
+      margin-bottom: 0.78vw
+      border: 1px solid #333333
+      box-sizing: border-box
+      &:hover
+        color: #ffffff
+    &__phone
+      display: flex
+      width: 75%
+      font-style: normal
+      font-weight: 500
+      font-size: 1vw
+      color: #333333
+      margin-left: 1.5vw
+      border-bottom: 1px solid #333333
+      &:hover
+        color: #ffffff
+
+
+@media( max-width:1300px )
+  .header
+    &__name
+      font-size: 1.9vw
+    &__nav
+      &__a
+        font-size: 1.84vw
+    &__phone
+      font-size: 1.5vw
+  .discription
+    &__name
+      &__dscr
+      &__city
+        font-size: 1.9vw
+      &__button
+        font-size: 1.5vw
+      &__items
+        &__dscr
+          font-size: 1.25vw
+    &__right-col
+      &__phone
+        right: 0vw
+      &__range
+        right: -1.2vw
+      &__translucent
+        right: -2.1vw
+  .feedback
+    &__date
+      font-size: 1.2vw
+
+@media( max-width: 1024px )
+  .container
+    width: 77%
+  .header
+    &__nav
+      &__a
+        font-size: 1.5vw
+    &__phone
+      font-size: 1.5vw
+  .discription
+    display: flex
+    justify-content: space-between
+    z-index: 2
+    &__name
+      z-index: 1
+      &__dscr
+        font-size: 2.65vw
+      &__button
+        font-size: 1.5vw
+      &__border
+        left: 13.9vw
+        top: 21.2vw
+      &__li
+        flex-direction: column
+      &__items
+        display: flex
+        justify-content: flex-start
+        margin-bottom: 4.3vw
+        &__dscr
+          font-size: 1.4vw
+      &__img
+        width: 20%
+    &__people
+      width: 40%
+    &__car
+      right: 8.3vw
+      top: 12.2vw
+      width: 40%
+    &__right-col
+      &__phone
+        bottom: 8vw 
+      &__range
+        bottom: 6.9vw
+      &__translucent
+        bottom: 6.1vw
+  .block-name
+    font-size: 2.56vw
+    &__descr
+      display: flex
+      justify-content: space-between
+    &__items
+      width: 45%
+      &__number
+        font-size: 3.6vw
+      &__name
+        font-size: 2vw
+      &__descr
+        font-size: 1.84vw
+        margin-bottom: 5vw
+  .price
+    font-size: 2.56vw
+    &__descr
+      font-size: 2.25vw
+    &__block
+      display: flex
+      justify-content: space-between
+      &__items
+        padding: 2.33vw
+      &__name
+        font-size: 2vw
+      &__descr
+        font-size: 1.7vw
+      &__price
+        font-size: 2vw
+      &__button
+        font-size: 1.7vw
+  .button
+    &__items
+      font-size: 1.5vw
+  .car
+    &__name
+      font-size: 2vw
+      margin-bottom: 2vw
+    &__descr
+      font-size: 1.8vw
+      margin-bottom: 2vw
+    &__img
+      margin: 3.5vw 0
+      width: 60%
+
+  .reviews
+    &__name
+      font-size: 2.56vw
+  .feedback
+    &__name
+      font-size: 2.25vw
+    &__date
+      font-size: 1.5vw
+    &__dscr
+      font-size: 1.5vw
+    &__img
+      width: 5%
+    &__link
+      font-size: 1.5vw   
+    &__btn
+      width: 17vw
+      font-size: 2vw   
+  .order-a-transfer
+    font-size: 2.56vw
+    &__call-back
+      font-size: 1.5vw
+    &__input
+      font-size: 2vw
+    &__booking
+      &__button
+        font-size: 1.7vw
+      &__label
+        font-size: 1.625vw
+  .contact
+    height: 39vw
+  .map
+    width: 30%
+    &__name
+      font-size: 2.56vw
+    &__items
+      &__img
+        width: 6%
+      &__link
+        font-size: 1.5vw  
+  .footer
+    &__col
+      &__name
+        font-size: 2.56vw         
+      &__dscr
+        font-size: 1.8vw
+      &__link
+        font-size: 2vw
+      &__mail
+        width: 100%
+        font-size: 2vw
+      &__button
+        font-size: 2vw
+      &__phone
+        width: 86%
+        font-size: 2vw
+
+@media ( max-width: 768px )
+  .container
+    width: 90%
+  .header
+    align-items: center
+    &__name
+      font-size: 2.56vw
+    &__nav
+      display: flex
+      &__a
+        font-size: 1.84vw
+  .hamburger
+    display: none
+    flex-direction: column
+    &__items
+      border: 1px solid #000000
+      height: 0vw
+      width: 2vw
+      margin-bottom: 0.2vw
+  .discription
+    &__name
+      &__city
+        font-size: 2.56vw
+      &__button
+        font-size: 2.25vw
+      &__border
+        width: 16.84vw
+        height: 4.125vw
+        left: 8.5vw
+        top: 21.9vw
+      &__items
+        justify-content: none
+        &__dscr
+          font-size: 1.8vw
+      &__img
+        width: 16%
+        margin-right: 2.52vw
+    &__people
+      z-index: 100
+      width: 35%
+    &__car
+      position: absolute
+      right: 0vw
+      top: 17.2vw
+      width: 40%
+    &__right-col
+      &__phone
+        bottom: 9vw
+        right: 1vw
+      &__range
+        width: 7.21vw
+        height: 7.21vw      
+      &__translucent
+        width: 9.08vw
+        height: 9.08vw
+  .block-name
+    font-size: 2.56vw
+    &__descr
+      display: flex
+      justify-content: space-between
+    &__items
+      width: 45%
+      &__number
+        font-size: 3.6vw
+      &__name
+        font-size: 2vw
+      &__descr
+        font-size: 1.84vw
+        margin-bottom: 5vw
+
+  .price
+    font-size: 2.56vw
+    &__descr
+      font-size: 2.25vw
+    &__block
+      display: flex
+      justify-content: space-between
+      &__items
+        padding: 2.33vw
+      &__name
+        font-size: 2vw
+      &__descr
+        font-size: 1.7vw
+      &__price
+        font-size: 2vw
+      &__button
+        font-size: 1.7vw
+  .button
+    &__items
+      font-size: 1.5vw
+  .car
+    &__name
+      font-size: 2vw
+      margin-bottom: 2vw
+    &__descr
+      font-size: 1.8vw
+      margin-bottom: 2vw
+    &__img
+      margin: 3.5vw 0
+      width: 60%
+  .reviews
+      &__name
+        font-size: 2.56vw
+    .feedback
+      flex-direction: column
+      margin: 0 auto
+      align-content: center
+      width: 70%
+      &__items
+        margin-bottom: 5vw
+      &__name
+        font-size: 2.25vw
+      &__date
+        font-size: 2.5vw
+      &__dscr
+        font-size: 2.5vw
+      &__img
+        width: 4%
+      &__link
+        font-size: 2.5vw   
+      &__btn
+        width: 25vw
+        font-size: 3vw 
+  .order
+    text-align: center
+  .order-a-transfer
+    font-size: 3.56vw
+    &__items
+      display: flex
+      flex-direction: column
+      align-items: center
+    &__call-back
+      font-size: 2.5vw
+    &__input
+      font-size: 2vw
+      margin-bottom: 3vw
+    &__booking
+      &__button
+        font-size: 3.7vw
+      &__label
+        font-size: 2.625vw
+  .contact
+    height: 39vw
+  .map
+    width: 50%
+    &__name
+      font-size: 3.56vw
+    &__items
+      &__img
+        width: 6%
+      &__link
+        font-size: 2.5vw  
+@media ( max-width: 470px  )
+  .container
+    width: 90%
+  .header
+    align-items: center
+    &__name
+      font-size: 5.56vw
+    &__nav
+      display: none
+    &__phone
+      display: none
+  .hamburger
+    display: flex
+    flex-direction: column
+    &__items
+      border: 2px solid #000000
+      height: 0vw
+      width: 3vw
+      margin-bottom: 0.5vw
+  .discription
+    display: flex
+    align-items: center
+    flex-direction: column-reverse
+    &__name
+      display: flex
+      align-items: center
+      flex-direction: column
+      width: 100%
+      &__dscr
+        font-size: 7vw
+        margin-bottom: 4vw
+      &__city
+        font-size: 5.56vw
+      &__button
+        font-size: 7.25vw
+        margin: 5vw 0vw
+      &__li
+        display: none
+      &__border
+        display: none
+        width: 16.84vw
+        height: 4.125vw
+        left: 8.5vw
+        top: 21.9vw
+      &__items
+        justify-content: none
+        &__dscr
+          font-size: 1.8vw
+      &__img
+        width: 16%
+        margin-right: 2.52vw
+    &__people
+      z-index: 100
+      width: 55%
+    &__car
+      display: none
+    &__right-col
+      display: none
+      &__phone
+        bottom: 9vw
+        right: 1vw
+      &__range
+        width: 7.21vw
+        height: 7.21vw      
+      &__translucent
+        width: 9.08vw
+        height: 9.08vw
+  .block-name
+    font-size: 5.56vw
+    &__descr
+      display: flex
+      flex-direction: column
+      align-items: center
+    &__items
+      display: flex
+      width: 80%
+      flex-direction: column
+      align-items: center
+      &__number
+        font-size: 5.6vw
+      &__name
+        font-size: 4vw
+      &__descr
+        width: 73vw
+        font-size: 3.84vw
+        margin-bottom: 5vw
+
+  .price
+    font-size: 5.56vw
+    &__descr
+      font-size: 3.25vw
+    &__block
+      display: flex
+      flex-direction: column
+      align-items: center
+      &__items
+        padding: 5.33vw
+      &__name
+        font-size: 5vw
+      &__descr
+        font-size: 3.7vw
+      &__price
+        font-size: 5vw
+      &__button
+        font-size: 3.7vw
+        width: 50%
+  .button
+    margin-bottom: 7vw
+    &__items
+      width: 32%
+      font-size: 3.5vw
+  .car
+    flex-direction: column
+    &__name
+      font-size: 4vw
+      margin-bottom: 6vw
+    &__descr
+      font-size: 3.8vw
+      margin-bottom: 6vw
+    &__img
+      margin: 3.5vw 0
+      width: 60%
+  .reviews
+    &__name
+      font-size: 5.56vw
+    .feedback
+      &__items
+        margin-bottom: 5vw
+      &__name
+        font-size: 5.25vw
+      &__date
+        font-size: 5.5vw
+      &__dscr
+        font-size: 3.5vw
+      &__img
+        width: 6%
+      &__link
+        font-size: 3.5vw   
+      &__btn
+        width: 35vw
+        font-size: 5vw 
+  .order
+    text-align: center
+  .order-a-transfer
+    font-size: 4.56vw
+    &__call-back
+      font-size: 3.5vw
+    &__input
+      font-size: 3vw
+      margin-bottom: 3vw
+    &__booking
+      &__button
+        font-size: 5.7vw
+      &__label
+        font-size: 2.625vw
+  .contact
+    height: 50vw
+
+
+  .map
+    width: 50%
+    &__name
+      font-size: 3.56vw
+    &__items
+      &__img
+        width: 6%
+      &__link
+        font-size: 2.5vw  
+  .footer
+    display: flex
+    flex-direction: column
+    align-items: center
+    &__col
+      text-align: center
+      &__social-network
+        &__img
+          margin-right: 5.6vw
+      &__name
+        font-size: 5.56vw         
+      &__dscr
+        font-size: 4.8vw
+      &__link
+        font-size: 6vw
+      &__mail
+        width: 100%
+        font-size: 6vw
+      &__button
+        font-size: 6vw
+        margin-bottom: 3vw
+      &__phone
+        width: 83%
+        font-size: 5vw
